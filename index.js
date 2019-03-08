@@ -1,5 +1,5 @@
 var recipes = {prop: 1}
-function destructivelyUpdateObjectWithKeyAndValue(recipes,key,value) {
+function destructivelyUpdateObjectWithKeyAndValue(recipes,prop2,) {
  recipes['prop2'] = 2;
   return recipes;
 }
