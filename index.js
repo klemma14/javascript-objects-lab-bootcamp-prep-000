@@ -10,6 +10,6 @@ recipes.prop2 = '2';
 function deleteFromObjectByKey(object,key) {
   var newRecipes = Object.assign({},recipes,{prop: 1},{prop2: 2});
   newRecipes
-  delete newRecipes.prop2
+  delete newRecipes.key
   newRecipes
 }
