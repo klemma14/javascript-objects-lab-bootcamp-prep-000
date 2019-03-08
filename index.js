@@ -1,4 +1,4 @@
-var recipes = {}
+var recipes = {'key': 1}
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value) {
  recipes.prop2 = '2';
   return recipes;
