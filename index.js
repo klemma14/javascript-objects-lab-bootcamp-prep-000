@@ -1,7 +1,7 @@
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value) {
+
  recipes.prop2 = '2';
-  var recipes = {prop: 1};
   destructivelyUpdateObjectWithKeyAndValue(object,'prop2','2')
   return recipes
 }
