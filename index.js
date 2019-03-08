@@ -4,7 +4,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object,key,value) {
   return recipes;
 }
   const recipes = {prop: 1};
-  destructivelyUpdateObjectWithKeyAndValue(object,key,value)
+  destructivelyUpdateObjectWithKeyAndValue(object,'prop2','2')
 function updateObjectWithKeyAndValue(object,key,value) {
   var newRecipes = Object.assign({},recipes,{prop: 1},{prop2: 2});
   return newRecipes;
